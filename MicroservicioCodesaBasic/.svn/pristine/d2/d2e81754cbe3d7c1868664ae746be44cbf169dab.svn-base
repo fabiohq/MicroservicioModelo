@@ -1,0 +1,71 @@
+logging:
+  level:
+    org.springframework.web: ERROR
+    com.mkyong: DEBUG
+    org.springframework.io.support: DEBUG
+    org.hibernate: ERROR
+    #com.zaxxer.hikari: DEBUG
+  pattern:
+    console: '%d{yyyy-MM-dd HH:mm:ss} - %msg%n'
+    file: '%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n'
+  file: /home/usuario/Compartida/ambiente_bnet_recaudos/FASE_II/PRUEBAS/LOGS/ApplicationEpaymentMicroservicioCRUD.log
+spring:
+  cloud:
+    config:
+      enabled: true
+      server:
+        git:
+          uri: https://github.com/pretonik/config-repo
+          basedir: target/config
+  application:
+    name: microservicio-crud-db
+  jpa:
+    show-sql: false
+    format-sql: true
+    database-platform: org.hibernate.dialect.Oracle10gDialect
+server:
+  port: 9090
+  tomcat:
+      max-threads: 200
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URI:http://127.0.0.1:8761/eureka}
+  instance:
+#    instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
+    preferIpAddress: true
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 180000
+app:
+  pass-phrase: Bnet.Recaudos_2018
+epayment:
+    datasource:
+      jdbc-url: jdbc:oracle:thin:@10.11.6.26:1523:code
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+      username: epaymigra2
+      password: epaymigra2
+      type: com.zaxxer.hikari.HikariDataSource
+      #connection-test-query: SELECT 1 FROM DUAL
+      pool-name: pool-hikari-gamble
+      maximum-pool-size: 10
+      minimum-idle: 5
+      idle-timeout: 300000
+      connection-timeout: 30000
+gamble:
+    datasource:
+      jdbc-url: jdbc:oracle:thin:@10.18.1.251:1521:coded2
+      driver-class-name: oracle.jdbc.driver.OracleDriver
+      username: GAMBLE
+      password: GAMBLE
+      type: com.zaxxer.hikari.HikariDataSource
+      #connection-test-query: SELECT 1 FROM DUAL
+      pool-name: pool-hikari-gamble
+      maximum-pool-size: 10
+      minimum-idle: 5
+      idle-timeout: 300000
+      connection-timeout: 30000

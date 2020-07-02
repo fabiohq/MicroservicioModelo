@@ -1,0 +1,327 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource",
+      "type": "co.com.codesa.configurations.EpaymentDataSourceConfig"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource",
+      "type": "co.com.codesa.configurations.GambleDataSourceConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.allow-pool-suspension",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.auto-commit",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.catalog",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.connection-init-sql",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.connection-test-query",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.connection-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.data-source-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.data-source-j-n-d-i",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.data-source-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.driver-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.health-check-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.health-check-registry",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.idle-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.initialization-fail-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.isolate-internal-queries",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.jdbc-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.leak-detection-threshold",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.max-lifetime",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.maximum-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.metric-registry",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.minimum-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.pool-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.read-only",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.register-mbeans",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.schema",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.transaction-isolation",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.EpaymentDataSourceConfig",
+      "name": "epayment.datasource.validation-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.allow-pool-suspension",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.auto-commit",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.catalog",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.connection-init-sql",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.connection-test-query",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.connection-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.data-source-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.data-source-j-n-d-i",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.data-source-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.driver-class-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.health-check-properties",
+      "type": "java.util.Properties"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.health-check-registry",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.idle-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.initialization-fail-timeout",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.isolate-internal-queries",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.jdbc-url",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.leak-detection-threshold",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.max-lifetime",
+      "type": "java.lang.Long"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.maximum-pool-size",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.metric-registry",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.metrics-tracker-factory",
+      "type": "com.zaxxer.hikari.metrics.MetricsTrackerFactory"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.minimum-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.pool-name",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.read-only",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.register-mbeans",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.scheduled-executor",
+      "type": "java.util.concurrent.ScheduledExecutorService"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.schema",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.transaction-isolation",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.username",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "co.com.codesa.configurations.GambleDataSourceConfig",
+      "name": "gamble.datasource.validation-timeout",
+      "type": "java.lang.Long"
+    }
+  ]
+}

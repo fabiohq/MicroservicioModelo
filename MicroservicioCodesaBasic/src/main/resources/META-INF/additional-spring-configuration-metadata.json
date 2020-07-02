@@ -1,0 +1,32 @@
+{"properties": [
+  {
+    "name": "configkey.passphrase",
+    "type": "java.lang.String",
+    "description": "A description for 'configkey.passphrase'"
+  },
+  {
+    "name": "gamble.datasource.type",
+    "type": "java.lang.String",
+    "description": "A description for 'gamble.datasource.type'"
+  },
+  {
+    "name": "epayment.datasource.type",
+    "type": "java.lang.String",
+    "description": "A description for 'epayment.datasource.type'"
+  },
+  {
+    "name": "spring.jpa.format-sql",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.jpa.format-sql'"
+  },
+  {
+    "name": "spring.jpa.format-sql",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.jpa.format-sql'"
+  },
+  {
+    "name": "hystrix.command.default.execution.isolation.thread.timeout-in-milliseconds",
+    "type": "java.lang.String",
+    "description": "A description for 'hystrix.command.default.execution.isolation.thread.timeout-in-milliseconds'"
+  }
+]}
