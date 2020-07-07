@@ -4,10 +4,11 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+import javax.ws.rs.core.MediaType;
 
 import co.com.codesa.service.IConsultaDetalleVentaServ;
 
@@ -19,7 +20,9 @@ public class ConsultaDetalleVentaCtrl {
 	@Autowired
 	IConsultaDetalleVentaServ consultaDetalle;
 
-	@GetMapping("/detalleVentaPorSerial/")
+	//@GetMapping("/detalleVentaPorSerial/")
+	//@CrossOrigin
+	@RequestMapping(value = "/detalleVentaPorSerial/", method = {RequestMethod.GET, RequestMethod.POST}, produces = MediaType.TEXT_PLAIN)
 	@CrossOrigin
 	public String getBySerialAndFechaVentas(@RequestBody String jSon) throws Exception {
 		logger.info("==> Id[" + Thread.currentThread().getId() + "] SE RECIBE PETICION\n "+jSon);
